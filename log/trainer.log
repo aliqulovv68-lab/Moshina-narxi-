@@ -1,0 +1,23 @@
+2026-07-17 22:02:47,986 - trainer - INFO - Data yuklanmoqda: data/raw/cars.csv
+2026-07-17 22:02:47,989 - trainer - ERROR - Fayl topilmadi: [Errno 2] No such file or directory: 'data/raw/cars.csv'
+2026-07-17 22:06:12,831 - trainer - INFO - Data yuklanmoqda: Data/raw/used_car_price_prediction_1M.csv
+2026-07-17 22:06:18,828 - trainer - INFO - Data yuklandi: 1005000 qator, 20 ustun
+2026-07-17 22:06:18,829 - trainer - INFO - Preprocessing boshlandi
+2026-07-17 22:06:20,714 - trainer - INFO - NaN qatorlar olib tashlandi, qoldi: 561457 qator
+2026-07-17 22:06:22,822 - trainer - INFO - Kategorik ustunlar encode qilindi: ['Brand', 'Model', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Color', 'City']
+2026-07-17 22:06:24,086 - trainer - INFO - Ustunlar scale qilindi
+2026-07-17 22:06:24,107 - trainer - INFO - Train/test bolish boshlandi
+2026-07-17 22:06:24,875 - trainer - INFO - Train: 449165 qator, Test: 112292 qator
+2026-07-17 22:06:24,875 - trainer - INFO - Model train qilinmoqda (XGBoost)
+2026-07-17 22:06:48,630 - trainer - INFO - Model muvaffaqiyatli train qilindi
+2026-07-17 22:06:49,568 - trainer - INFO - Test R2 score: 0.6897
+2026-07-17 22:06:49,666 - trainer - INFO - Model saqlandi: model/xgb_model.pkl
+2026-07-18 02:29:48,151 - trainer - INFO - Data yuklanmoqda: Data/raw/used_car_price_prediction_1M.csv
+2026-07-18 02:29:54,807 - trainer - INFO - Data yuklandi: 1005000 qator, 20 ustun
+2026-07-18 02:29:54,807 - trainer - INFO - Preprocessing boshlandi
+2026-07-18 02:29:55,651 - trainer - INFO - NaN qatorlar olib tashlandi, qoldi: 561457 qator
+2026-07-18 02:29:57,062 - trainer - INFO - Kategorik ustunlar encode qilindi: ['Brand', 'Model', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Color', 'City']
+2026-07-18 02:29:58,402 - trainer - INFO - Ustunlar scale qilindi
+2026-07-18 02:29:58,450 - trainer - INFO - Train/test bolish boshlandi
+2026-07-18 02:29:59,706 - trainer - INFO - Train: 449165 qator, Test: 112292 qator
+2026-07-18 02:29:59,707 - trainer - INFO - Model train qilinmoqda (XGBoost)

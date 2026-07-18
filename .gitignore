@@ -1,0 +1,6 @@
+*.csv
+*.npy
+Data/
+dars-main/Errors/
+dars-main/log/
+*.log
